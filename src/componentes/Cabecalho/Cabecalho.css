@@ -1,0 +1,27 @@
+.cabecalho{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.cabecalho-logo{
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.cabecalho-logo img{
+    width:32px;
+}
+
+.cabecalho-logo p{
+    font-size: 1.5em;
+    font-weight: 500;
+    color:#FFF;
+    text-transform: uppercase;
+}
+
+.imagem-usuario{
+    width:32px;
+}
