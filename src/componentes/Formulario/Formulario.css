@@ -1,7 +1,14 @@
+.formularios{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+}
+
 .formulario{
     display: flex;
     justify-content: center;
-    margin:50px;
+    margin:20px 0;
 }
 
 .formulario form{
@@ -9,10 +16,33 @@
     padding:3em;
     border-radius: 20px;
     box-shadow: 8px 8px 16px rgba(0, 0, 0, 0.8);
+    flex:1;
 }
 
 .formulario h2 {
     font-size: 1.5em;
     color:#FFF;
     text-align: center;
+}
+
+.botao-toggle{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.botao-toggle button{
+    background-color:#FFF;
+    color: #191919;
+    padding:10px;
+    font-size: 1em;
+    font-weight: 600;
+    border:none;
+    cursor:pointer;
+    border-radius: 10px;
+}
+
+.botao-toggle button:hover{
+    background-color: #D21312;
+    color:#FFF;
 }

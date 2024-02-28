@@ -1,6 +1,7 @@
 .pokemon {
     width: 280px;
     margin: 0 20px 20px 20px;
+    position: relative;
 }
 
 .pokemon .cabecalho-card {
@@ -26,3 +27,8 @@
     line-height: 22px;
 }
 
+.deletar{
+    position:absolute;
+    right:10px;
+    top:10px;
+}
